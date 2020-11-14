@@ -1,0 +1,165 @@
+/* Apply to All Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Body Element - For Overall Page Default Color & Font Family */
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+/* Heading Element - Center Aligned & 75% Larger than Normal Text */
+h1{
+	text-align: center;
+	font-size: 175%;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+/* Section Element - Three sections*/
+section{
+	border: 2px solid black;
+	background-color: gray;
+	height: 150px;
+	overflow: hidden;
+}
+
+/* Title of three sections - Different IDs for unique color of each, floating right position */
+#title1{
+	background-color: #d1b566;
+	margin: 0px;
+	width: 100px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	float:right;
+	text-align: center;
+	font-size: 125%
+}
+#title2{
+	background-color: #ecf7b0;
+	margin: 0px;
+	width: 100px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	float:right;
+	text-align: center;
+	font-size: 125%
+}
+#title3{
+	background-color: #b0f7eb;
+	margin: 0px;
+	width: 100px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	float:right;
+	text-align: center;
+	font-size: 125%
+}
+
+/* Text of three sections - Through common class, clear right to ensure spacing with title */ 
+.sectiontext{
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	clear: right;
+}
+
+/* Div Element - padding to ensure uniform gap between respsonsive div elements */
+div{
+	padding: 10px;
+}
+
+/* Simple Responsive Framework - Reference Lecture 24 */
+.row {
+  width: 100%;
+}
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+   }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
