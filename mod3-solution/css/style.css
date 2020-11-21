@@ -1,0 +1,122 @@
+/* Apply to All Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Body Element - For Overall Page Default Color & Font Family */
+body {
+	background-color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+
+/* Nav - Header - Background & Margins */
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0px;
+}
+
+/*Modifying standard margins, padding for unifrom view*/
+nav > .container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container > .navbar-header {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container > .navbar-header > .navbar-brand {
+  padding: 10.25px 0px;
+  margin-left: 0;
+}
+
+/*Navbar-brand; Left aligned using bootstrap class*/
+.navbar-brand h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0px 5px;
+}
+
+/*Navbar-brand; Removing standard hover underline*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*Drop-down buttom alignment*/
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -42px;
+  margin-bottom: 0px;
+}
+
+/*Nav-list - drop down list formatiing*/
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear: both;
+}
+#nav-list a {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav {
+  margin-top: 0px;
+  border: 0px;
+ }  
+
+/*Aligning Navbar-brand and Section text starting*/
+.col-xs-12{
+  padding: 0;
+}
+
+/*Menu title formating*/
+h1{
+  font-size: 175%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Section Element*/
+section{
+	background-color: gray;
+	overflow: hidden;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+/* Title of sections */
+#title1 {
+	margin: 5px;
+	width: 100%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+	font-size: 125%;
+  font-weight: bold;
+  color: black;
+}
+
+/* Text of sections */ 
+.sectiontext{
+	margin: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	clear: both;
+}
+
+
+
